@@ -5,3 +5,26 @@
     height: 30px;
     margin-left: 16px;
 }
+:host
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "nav feed suggestions";
+}
+#nav
+{
+    grid-area: nav;
+    padding-top: 26px;
+}
+#suggestions
+{
+    grid-area: suggestions;
+}
+app-whatshappening
+{
+    padding: 16px;
+}
+app-whotofollow
+{
+    padding: 16px;
+}

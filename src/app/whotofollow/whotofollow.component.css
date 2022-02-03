@@ -1,0 +1,75 @@
+#WTF
+{
+    font-weight: 900;
+    padding: 16px;
+    font-size: 20px;
+}
+li
+{
+    margin-bottom: 16px;
+    padding: 16px;
+    color: black;
+}
+li:hover
+{
+    background-color: rgba(0,0,0,0.1);
+}
+ul
+{
+    list-style: none;
+    padding: 0 !important;
+}
+.card-body
+{
+    padding: 0 !important;
+    background-color: rgba(228, 238, 248, 0.5);
+    border-radius: 16px !important;
+}
+.card
+{
+    border: none !important;
+}
+a
+{
+    text-decoration: none !important;
+}
+img
+{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+#SA
+{
+    display: flex !important;
+}
+#text
+{
+    margin-left: 16px;
+}
+#username
+{
+    font-size: 12px;
+    color: gray;
+}
+button
+{
+    background-color: black;
+    color: white;
+    height: 32px;
+    border-radius: 32px;
+    border: none;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+}
+button:hover
+{
+    opacity: 0.8;
+}
+#name:hover
+{
+    text-decoration: underline;
+}
