@@ -8,6 +8,8 @@ import { FooterComponent } from './footer/footer.component';
 import { WhatshappeningComponent } from './whatshappening/whatshappening.component';
 import { WhotofollowComponent } from './whotofollow/whotofollow.component';
 import { ActualFooterComponent } from './actual-footer/actual-footer.component';
+import { TweetsComponent } from './tweets/tweets.component';
+import { WhatsHappeningItemComponent } from './whats-happening-item/whats-happening-item.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ActualFooterComponent } from './actual-footer/actual-footer.component';
     FooterComponent,
     WhatshappeningComponent,
     WhotofollowComponent,
-    ActualFooterComponent
+    ActualFooterComponent,
+    TweetsComponent,
+    WhatsHappeningItemComponent
   ],
   imports: [
     BrowserModule

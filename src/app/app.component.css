@@ -28,3 +28,9 @@ app-whotofollow
 {
     padding: 16px;
 }
+#tweets
+{
+    grid-area: feed;
+    margin-right: 16px;
+    padding-top: 26px;
+}

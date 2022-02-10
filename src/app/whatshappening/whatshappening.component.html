@@ -4,29 +4,14 @@
       What's happening
     </header>
     <ul>
-      <a href="#">
-        <li>
-          <h6 id="TCat">
-            Twitter - LIVE
-          </h6>
-          <span id="TBody">
-            Man tries to recreate Twitter, legal action is being taken.
-          </span>
-      </li>
-      </a>
-      <a href="#">
-        <li class="has-image">
-          <div>
-            <h6 id="VGCat">
-              Video Games - 69 minutes ago
-            </h6>
-            <span id="VGBody">
-              Mojang announces 'Minecraft 2', contains no cubes.
-            </span>
-          </div>
-          <img src="../../assets/minecraft-1-logo-png-transparent.png" alt="">
-        </li>
-      </a>
+      <app-whats-happening-item
+        *ngFor="let item of items"
+        categoryAndTime="{{item.categoryAndTime}}"
+        text="{{item.text}}"
+        image="{{item.image}}"
+      >
+        Loading...
+      </app-whats-happening-item>
       <a href="#">
         <li id="SM">
           Show more
