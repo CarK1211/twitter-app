@@ -1,0 +1,6 @@
+Main Features:
+    Created Layout components 'explore-nav-bar', 'lists-header', 'messages-header', 'notifications', and 'profile-navbar'
+    Added routing to the "Explore", "Lists", "Messages", "Notificaions", and "Profile" navbar buttons that lead to their respective components.
+    Tweaked Layout.
+Bonus Features:
+    None.

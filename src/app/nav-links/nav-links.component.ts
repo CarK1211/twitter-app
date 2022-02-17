@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class NavLinksComponent {
 
-  @Input() href: String = "#";
+  @Input() routerLink: string | any[] | null | undefined = "";
   @Input() linkText: String = "";
 
   constructor() { }
