@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="card-body">
+        <ul>
+        <app-message-list-item
+          *ngFor="let item of items"
+          username="{{item.username}}"
+          text="{{item.text}}"
+          image="{{item.image}}"
+        >
+          Loading...
+        </app-message-list-item>
+      </ul>
+    </div>
+  </div>

@@ -16,6 +16,11 @@ import { NotificationsComponent } from './notifications/notifications.component'
 import { MessagesHeaderComponent } from './messages-header/messages-header.component';
 import { ListsHeaderComponent } from './lists-header/lists-header.component';
 import { ProfileNavbarComponent } from './profile-navbar/profile-navbar.component';
+import { YourListsComponent } from './your-lists/your-lists.component';
+import { DiscoverListsComponent } from './discover-lists/discover-lists.component';
+import { MessageListComponent } from './message-list/message-list.component';
+import { MessageListItemComponent } from './message-list-item/message-list-item.component';
+import { SelectedMessageComponent } from './selected-message/selected-message.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,12 @@ import { ProfileNavbarComponent } from './profile-navbar/profile-navbar.componen
     NotificationsComponent,
     MessagesHeaderComponent,
     ListsHeaderComponent,
-    ProfileNavbarComponent
+    ProfileNavbarComponent,
+    YourListsComponent,
+    DiscoverListsComponent,
+    MessageListComponent,
+    MessageListItemComponent,
+    SelectedMessageComponent,
   ],
   imports: [
     BrowserModule,
