@@ -1,6 +1,10 @@
 Main Features:
-    Created Layout components 'explore-nav-bar', 'lists-header', 'messages-header', 'notifications', and 'profile-navbar'
-    Added routing to the "Explore", "Lists", "Messages", "Notificaions", and "Profile" navbar buttons that lead to their respective components.
-    Tweaked Layout.
+    Created Components 'your-lists', 'selected message', 'message-list', and 'discover-lists'
+        Counting the one component made last week for each branch, this totals three components per branch.
+    Added the following attributes to the class 'message-list-item.ts'
+        username
+        image
+        text
+        (This component is generated using an ngfor loop.)
 Bonus Features:
     None.
