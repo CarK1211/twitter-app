@@ -1,10 +1,7 @@
 Main Features:
-    Created Components 'your-lists', 'selected message', 'message-list', and 'discover-lists'
-        Counting the one component made last week for each branch, this totals three components per branch.
-    Added the following attributes to the class 'message-list-item.ts'
-        username
-        image
-        text
-        (This component is generated using an ngfor loop.)
+    Created a backend FireBase Realtime Database
+    Created a basic component ('user-info') that displays user info from the database.
+        This displays on top of the page above the main component for the selected route.
+        Link goes to GitHub repository.
 Bonus Features:
     None.

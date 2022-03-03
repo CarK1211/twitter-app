@@ -1,0 +1,16 @@
+<div *ngIf="myInfo==undefined">
+    <p class="text-warning">
+        Failed to get user info.
+    </p>
+</div>
+
+<div *ngIf="myInfo != undefined" class="card">
+    <div class="card-body">
+        User: {{myInfo.FirstName}} {{myInfo.LastName}} <br>
+        <a href={{myInfo.GitHub}}>
+            GitHub: {{myInfo.GitHub}}         
+        </a>
+        <br>
+        MixID: {{myInfo.mix_id}}@mix.wvu.edu
+    </div>
+</div>

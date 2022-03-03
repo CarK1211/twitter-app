@@ -21,6 +21,8 @@ import { DiscoverListsComponent } from './discover-lists/discover-lists.componen
 import { MessageListComponent } from './message-list/message-list.component';
 import { MessageListItemComponent } from './message-list-item/message-list-item.component';
 import { SelectedMessageComponent } from './selected-message/selected-message.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -43,10 +45,12 @@ import { SelectedMessageComponent } from './selected-message/selected-message.co
     MessageListComponent,
     MessageListItemComponent,
     SelectedMessageComponent,
+    UserInfoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
