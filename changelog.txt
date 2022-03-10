@@ -1,7 +1,6 @@
 Main Features:
-    Created a backend FireBase Realtime Database
-    Created a basic component ('user-info') that displays user info from the database.
-        This displays on top of the page above the main component for the selected route.
-        Link goes to GitHub repository.
+    Made the Whats Happening Feed based on the backend server.
+        Whats happening now gets its elements from the firebase server.
+        This uses a new service component, 'whats-happening-item-service.ts'.
 Bonus Features:
     None.

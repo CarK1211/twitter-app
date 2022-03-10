@@ -9,12 +9,12 @@ export class WhatsHappeningItemComponent{
 
   @Input() categoryAndTime: string;
   @Input() text: string;
-  @Input() image: string;
+  @Input() img: string;
 
   constructor()
   {
     this.categoryAndTime = "";
     this.text = "";
-    this.image = "";
+    this.img = "";
   }
 }
