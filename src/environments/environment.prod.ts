@@ -10,7 +10,7 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: "AIzaSyC7l_fqGgNyVdAAdXc6Ad-AFeiVWGjZbp8",
   authDomain: "twitter-app-1f60b.firebaseapp.com",
   databaseURL: "https://twitter-app-1f60b-default-rtdb.firebaseio.com",
