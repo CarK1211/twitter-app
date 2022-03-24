@@ -1,6 +1,6 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { UserInfo } from './user-info';
+import { AngularFireDatabase } from "@angular/fire/compat/database";
 
 @Component({
   selector: 'app-user-info',
@@ -10,7 +10,7 @@ import { UserInfo } from './user-info';
 export class UserInfoComponent implements OnInit {
   myInfo: UserInfo | undefined;
 
-  constructor(private http:HttpClient) { }
+  constructor(private db:AngularFireDatabase) { }
 
   ngOnInit(): void {
     console.log("Sending get request...");
@@ -19,12 +19,12 @@ export class UserInfoComponent implements OnInit {
 
   getUserInfo()
   {
-    return this.http.get<UserInfo>("https://twitter-app-1f60b-default-rtdb.firebaseio.com/myinfo.json");
+    return this.db.object<UserInfo>("myinfo").valueChanges();
   }
 
   showUserInfo()
   {
-    this.getUserInfo().subscribe((data: UserInfo) => {
+    this.getUserInfo().subscribe((data: any) => {
       console.log(data);
       this.myInfo = data;
     })

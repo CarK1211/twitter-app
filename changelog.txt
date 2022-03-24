@@ -1,6 +1,6 @@
 Main Features:
-    Made the Whats Happening Feed based on the backend server.
-        Whats happening now gets its elements from the firebase server.
-        This uses a new service component, 'whats-happening-item-service.ts'.
+    Put website app on the open internet.
+        The latest verion of the website can be found on the URL "https://twitter-app-1f60b.web.app/
+    Changed backend dependency to Use AngularFire instead of HttpClient.
 Bonus Features:
     None.
