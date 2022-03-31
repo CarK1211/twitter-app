@@ -7,6 +7,7 @@ import { NotificationsComponent } from './notifications/notifications.component'
 import { MessagesHeaderComponent } from './messages-header/messages-header.component';
 import { ListsHeaderComponent } from './lists-header/lists-header.component';
 import { ProfileNavbarComponent } from './profile-navbar/profile-navbar.component';
+import { AddWhiComponent } from './add-whi/add-whi.component';
 
 const routes:Routes = [
   {path: '', component: TweetsComponent},
@@ -15,7 +16,8 @@ const routes:Routes = [
   {path: 'notifications', component: NotificationsComponent},
   {path: 'messages', component: MessagesHeaderComponent},
   {path: 'lists', component: ListsHeaderComponent},
-  {path: 'profile', component: ProfileNavbarComponent}
+  {path: 'profile', component: ProfileNavbarComponent},
+  {path: 'admin', component: AddWhiComponent}
 ];
 
 @NgModule({

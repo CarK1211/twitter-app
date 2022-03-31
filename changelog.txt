@@ -1,6 +1,6 @@
 Main Features:
-    Put website app on the open internet.
-        The latest verion of the website can be found on the URL "https://twitter-app-1f60b.web.app/
-    Changed backend dependency to Use AngularFire instead of HttpClient.
+    Added new route 'admin'
+    'admin' contains a form to add a Whats Happening Item
+    This form will add the item to the database and display it under Whats Happening.
 Bonus Features:
     None.

@@ -24,4 +24,9 @@ export class WhatsHappeningItemService
     {
         return this.db.object<WhatsHappeningItem>(`${this.WHIendPoint}/${index}`).valueChanges();
     }
+
+    addWHI(item: WhatsHappeningItem)
+    {
+        this.db.list<WhatsHappeningItem>(this.WHIendPoint).push(item);
+    }
 }

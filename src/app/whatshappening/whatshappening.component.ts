@@ -18,10 +18,7 @@ export class WhatshappeningComponent implements OnInit
    ngOnInit(): void {
        this.itemService.getItems().subscribe((data: WhatsHappeningItem []) => {
          console.log("Fetching Items...")
-         for (var item of data)
-         {
-           this.items.push(item);
-         }
+         this.items=data;
        });
    }
 }

@@ -26,6 +26,8 @@ import { UserInfoComponent } from './user-info/user-info.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { firebaseConfig } from 'src/environments/environment';
+import { AddWhiComponent } from './add-whi/add-whi.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -49,13 +51,15 @@ import { firebaseConfig } from 'src/environments/environment';
     MessageListItemComponent,
     SelectedMessageComponent,
     UserInfoComponent,
+    AddWhiComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(firebaseConfig),
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
