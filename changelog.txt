@@ -1,6 +1,7 @@
 Main Features:
-    Added new route 'admin'
-    'admin' contains a form to add a Whats Happening Item
-    This form will add the item to the database and display it under Whats Happening.
+    Added New Route 'login'
+        This route allows you to sign up or log into an account.
+        This uses firebase's auth service and REST API.
 Bonus Features:
-    None.
+    Added Unit Tests
+        Added 5 unit tests for the 'whats-happening-item' component.

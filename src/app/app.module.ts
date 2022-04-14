@@ -28,6 +28,7 @@ import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { firebaseConfig } from 'src/environments/environment';
 import { AddWhiComponent } from './add-whi/add-whi.component';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { FormsModule } from '@angular/forms';
     SelectedMessageComponent,
     UserInfoComponent,
     AddWhiComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
